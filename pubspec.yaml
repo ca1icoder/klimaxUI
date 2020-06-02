@@ -1,0 +1,43 @@
+name: klimaxapp
+description: A new Flutter application for Freelancer client.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.3
+  fluttericon: ^1.0.7
+  splashscreen: ^1.2.0
+  flutter_svg: ^0.17.4
+  flutter_staggered_grid_view: ^0.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Nunito
+      fonts:
+      - asset: fonts/Nunito-Bold.ttf
+      - asset: fonts/Nunito-Light.ttf
